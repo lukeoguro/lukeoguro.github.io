@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <!-- Edamame -->
+  <div class="relative py-16">
+    <div class="hidden absolute top-0 inset-x-0 h-1/2 lg:block" aria-hidden="true"></div>
+    <div class="bg-gradient-to-r from-indigo-500">
+      <div class="max-w-7xl mx-auto lg:to-transparent lg:from-transparent lg:bg-transparent lg:px-8">
+        <div class="lg:grid lg:grid-cols-12">
+          <div class="relative z-10 lg:col-start-1 lg:row-start-1 lg:col-span-4 lg:py-16 lg:bg-transparent">
+            <div class="absolute inset-x-0 h-1/2 bg-white lg:hidden" aria-hidden="true"></div>
+            <div class="max-w-sm mx-auto px-4 sm:px-6 lg:p-0">
+              <div class="aspect-w-1 aspect-h-1">
+                <img class="object-cover object-center rounded-3xl shadow-2xl" src="/assets/edamame-logo.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="relative lg:col-start-6 lg:row-start-1 lg:col-span-7 lg:rounded-3xl lg:items-center lg:py-12">
+            <div
+              class="relative max-w-md mx-auto py-12 px-4 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-6">
+              <p class="text-2xl text-white mt-6">
+                Edamame is an open-source, distributed load testing framework, optimized for real-time collaboration
+                apps that use both HTTP and WebSockets.
+              </p>
+              <video autoplay loop muted playsinline class="mt-6 rounded-lg">
+                <source src="/assets/edamame-cli.mp4" type="video/mp4" />
+                Your browser does not support the HTML5 Video element.
+              </video>
+              <p class="text-2xl text-white mt-6">
+                It comes with a CLI and React GUI that enables developers to
+                easily self-host cloud-based architecture on AWS.
+              </p>
+              <img class="mt-6 rounded-lg" src="/assets/edamame-gui.png" />
+
+              <a class="mt-12 block w-full py-3 px-5 text-center bg-custom border border-transparent rounded-md shadow-md text-white font-medium text-ekko-teal hover:bg-ekko-pink hover:text-white sm:inline-block sm:w-auto"
+                href="https://get-edamame.com/" target="_blank">Learn About Edamame</a>
+              <a class="ml-1 mt-12 block w-full py-3 px-5 text-center bg-custom border border-transparent rounded-md shadow-md text-white font-medium text-ekko-teal hover:bg-ekko-pink hover:text-white sm:inline-block sm:w-auto"
+                href="https://get-edamame.com/case-study" target="_blank">Read Case Study</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Small Projects -->
+  <div class="relative pt-16 pb-20 px-4 sm:px-6 lg:pt-16 lg:pb-28 lg:px-8">
+    <div class="absolute inset-0">
+      <div class="bg-white h-1/3 sm:h-2/3"></div>
+    </div>
+    <div class="relative max-w-7xl mx-auto">
+      <div class="text-center">
+        <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl"> Small Projects </h2>
+      </div>
+      <div class="mt-12 max-w-lg mx-auto grid gap-10 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 md:max-w-none">
+        <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+          <div class="flex-shrink-0 p-6 flex justify-center bg-gray-200">
+            <img class="h-64 drop-shadow-lg filter object-scale-down" src="/assets/todomato.png" alt="" />
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <p class="text-xl font-semibold text-gray-900 mt-2">
+                Todomato
+              </p>
+              <p class="mt-3 text-base text-gray-500">
+                A database-backed todo tracking application
+              </p>
+              <p class="mt-3 text-base text-gray-500">
+                <i>Ruby, Sinatra, PostgreSQL, Heroku</i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+          <div class="flex-shrink-0 p-6 flex justify-center bg-gray-200">
+            <img class="h-64 drop-shadow-lg filter object-scale-down" src="/assets/mello.png" alt="" />
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <p class="text-xl font-semibold text-gray-900 mt-2">Mello</p>
+              <p class="mt-3 text-base text-gray-500">
+                A Trello-like, Kanban-style project management app
+              </p>
+              <p class="mt-3 text-base text-gray-500">
+                <i>JavaScript, React/Redux, Node.js/Express, MongoDB</i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+          <div class="flex-shrink-0 p-6 flex justify-center bg-gray-200">
+            <img class="h-64 drop-shadow-lg filter object-scale-down" src="/assets/potato-bin.png" alt="" />
+          </div>
+          <div class="flex-1 bg-white p-6 flex flex-col justify-between">
+            <div class="flex-1">
+              <p class="text-xl font-semibold text-gray-900 mt-2">
+                Potato Bin
+              </p>
+              <p class="mt-3 text-base text-gray-500">
+                RequestBin-like tool for receiving and debugging webhooks
+              </p>
+              <p class="mt-3 text-base text-gray-500">
+                <i>JavaScript, Express, React, MongoDB, Nginx, PM2</i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
