@@ -5,23 +5,50 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
-  <script type="module" crossorigin src="/assets/index-25d43ddd.js"></script>
-  <link rel="stylesheet" href="/assets/index-e758e6fa.css">
+  <title>Luke Oguro | Software Engineer</title>
+  <script type="module" crossorigin src="/assets/index-86b409b8.js"></script>
+  <link rel="stylesheet" href="/assets/index-d5547206.css">
 </head>
 
 <body>
+  <!-- Contact Buttons -->
+  <div class="flex flex-col fixed z-50 w-12 text-2xl space-y-2 top-3 right-3">
+    <a href="#" id="menu"
+      class="flex h-12 items-center shadow-md justify-center font-medium rounded-md text-white bg-slate-900 hover:bg-slate-600">
+      <i class="fas fa-bars"></i>
+    </a>
+    <a href="mailto:lukeoguro@gmail.com"
+      class="menuItem flex h-12 items-center shadow-md justify-center border border-transparent font-medium rounded-full text-white bg-slate-900 hover:bg-slate-800">
+      <i class="fas fa-envelope"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/luke-oguro/"
+      class="menuItem flex h-12 items-center shadow-md justify-center border border-transparent font-medium rounded-full text-white bg-slate-900 hover:bg-slate-800"
+      target="_blank">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/lukeoguro"
+      class="menuItem flex h-12 items-center shadow-md justify-center border border-transparent font-medium rounded-full text-white bg-slate-900 hover:bg-slate-800"
+      target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="/Luke_Oguro_Resume.pdf" target="_blank"
+      class="menuItem flex h-12 items-center shadow-md justify-center border border-transparent font-medium rounded-full text-white bg-slate-900 hover:bg-slate-800">
+      <i class="fas fa-file-alt"></i>
+    </a>
+  </div>
+
   <!-- Edamame -->
   <div class="relative py-16">
-    <div class="hidden absolute top-0 inset-x-0 h-1/2 lg:block" aria-hidden="true"></div>
-    <div class="bg-gradient-to-r from-indigo-500">
-      <div class="max-w-7xl mx-auto lg:to-transparent lg:from-transparent lg:bg-transparent lg:px-8">
+    <div class="hidden top-0 inset-x-0 h-1/2 lg:block" aria-hidden="true"></div>
+    <div class="bg-gradient-to-r from-slate-400 to-slate-700">
+      <div class="max-w-7xl mx-auto lg:px-8">
         <div class="lg:grid lg:grid-cols-12">
-          <div class="relative z-10 lg:col-start-1 lg:row-start-1 lg:col-span-4 lg:py-16 lg:bg-transparent">
+          <div class="relative lg:col-start-1 lg:row-start-1 lg:col-span-4 lg:py-16 lg:bg-transparent">
             <div class="absolute inset-x-0 h-1/2 bg-white lg:hidden" aria-hidden="true"></div>
-            <div class="max-w-sm mx-auto px-4 sm:px-6 lg:p-0">
+            <div class="relative max-w-sm mx-auto px-4 sm:px-6 lg:p-0">
               <div class="aspect-w-1 aspect-h-1">
-                <img class="object-cover object-center rounded-3xl shadow-2xl" src="/assets/edamame-logo-afd172b2.png" alt="" />
+                <img class="object-cover object-center rounded-3xl shadow-2xl" src="/assets/edamame-logo-afd172b2.png"
+                  alt="Edamame logo" />
               </div>
             </div>
           </div>
@@ -29,7 +56,7 @@
           <div class="relative lg:col-start-6 lg:row-start-1 lg:col-span-7 lg:rounded-3xl lg:items-center lg:py-12">
             <div
               class="relative max-w-md mx-auto py-12 px-4 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-6">
-              <p class="text-2xl text-white mt-6">
+              <p class="text-2xl text-white sm:mt-6">
                 Edamame is an open-source, distributed load testing framework, optimized for real-time collaboration
                 apps that use both HTTP and WebSockets.
               </p>
@@ -41,11 +68,11 @@
                 It comes with a CLI and React GUI that enables developers to
                 easily self-host cloud-based architecture on AWS.
               </p>
-              <img class="mt-6 rounded-lg" src="/assets/edamame-gui-6f74d1a2.png" />
+              <img class="mt-6 rounded-lg" src="/assets/edamame-gui-e203a0d8.png" />
 
-              <a class="mt-12 block w-full py-3 px-5 text-center bg-custom border border-transparent rounded-md shadow-md text-white font-medium text-ekko-teal hover:bg-ekko-pink hover:text-white sm:inline-block sm:w-auto"
+              <a class="mt-12 text-xl block w-full py-3 px-5 text-center bg-sky-500 hover:bg-sky-600 border border-transparent rounded-md shadow-md text-white font-medium sm:inline-block sm:w-auto"
                 href="https://get-edamame.com/" target="_blank">Learn About Edamame</a>
-              <a class="ml-1 mt-12 block w-full py-3 px-5 text-center bg-custom border border-transparent rounded-md shadow-md text-white font-medium text-ekko-teal hover:bg-ekko-pink hover:text-white sm:inline-block sm:w-auto"
+              <a class="sm:ml-2 mt-2 sm:mt-12 text-xl block w-full py-3 px-5 text-center bg-sky-500 hover:bg-sky-600 border border-transparent rounded-md shadow-md text-white font-medium sm:inline-block sm:w-auto"
                 href="https://get-edamame.com/case-study" target="_blank">Read Case Study</a>
             </div>
           </div>
@@ -91,7 +118,7 @@
             <div class="flex-1">
               <p class="text-xl font-semibold text-gray-900 mt-2">Mello</p>
               <p class="mt-3 text-base text-gray-500">
-                A Trello-like, Kanban-style project management app
+                A Trello-like, Kanban-style project management application
               </p>
               <p class="mt-3 text-base text-gray-500">
                 <i>JavaScript, React/Redux, Node.js/Express, MongoDB</i>
@@ -118,6 +145,39 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="bg-slate-800">
+    <div class="mx-auto text-center py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
+        <span class="block">Let's Connect!</span>
+      </h2>
+      <p class="mt-4 mb-4 text-xl leading-6 text-gray-200">
+        I am looking for my next opportunity! Please get in touch if you think
+        I'd be a good fit for your team.
+      </p>
+      <div class="flex items-center justify-center flex-wrap">
+        <a href="mailto:lukeoguro@gmail.com"
+          class="text-lg w-2/5 mt-4 mx-2 inline-flex items-center shadow-md justify-center px-5 py-2 border border-transparent font-medium rounded-md bg-white hover:bg-slate-100 sm:w-auto">
+          <span class="text-xl mr-3"><i class="fas fa-envelope"></i></span>Email
+        </a>
+        <a href="https://www.linkedin.com/in/luke-oguro/"
+          class="text-lg w-2/5 mt-4 mx-2 inline-flex items-center shadow-md justify-center px-5 py-2 border border-transparent font-medium rounded-md bg-white hover:bg-slate-100 sm:w-auto"
+          target="_blank">
+          <span class="text-xl mr-3"><i class="fab fa-linkedin"></i></span>LinkedIn
+        </a>
+        <a href="https://github.com/lukeoguro"
+          class="text-lg w-2/5 mt-4 mx-2 inline-flex items-center shadow-md justify-center px-5 py-2 border border-transparent font-medium rounded-md bg-white hover:bg-slate-100 sm:w-auto"
+          target="_blank">
+          <span class="text-xl mr-3"><i class="fab fa-github"></i></span>GitHub
+        </a>
+        <a href="/Luke_Oguro_Resume.pdf" target="_blank"
+          class="text-lg w-2/5 mt-4 mx-2 inline-flex items-center shadow-md justify-center px-5 py-2 border border-transparent font-medium rounded-md bg-white hover:bg-slate-100 sm:w-auto">
+          <span class="text-xl mr-3"><i class="fas fa-file-alt"></i></span>Resume
+        </a>
       </div>
     </div>
   </div>
