@@ -1,3 +1,3 @@
 # README.md
 
-Source code for my website. Go to:
+Source code for my website. Visit: [lukeoguro.com](https://www.lukeoguro.com)
