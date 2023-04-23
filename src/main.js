@@ -15,7 +15,8 @@ menu.addEventListener("click", (e) => {
 
 // Asciinema
 import * as AsciinemaPlayer from 'asciinema-player';
-AsciinemaPlayer.create('/assets/edamame.cast', document.getElementById('demo'), {
+
+AsciinemaPlayer.create('/edamame.cast', document.getElementById('demo'), {
   loop: true,
   autoPlay: true,
   theme: 'nord',
