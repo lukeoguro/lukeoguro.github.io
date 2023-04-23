@@ -12,3 +12,13 @@ menu.addEventListener("click", (e) => {
     menuItem.classList.toggle("flex");
   });
 });
+
+// Asciinema
+import * as AsciinemaPlayer from 'asciinema-player';
+AsciinemaPlayer.create('/assets/edamame.cast', document.getElementById('demo'), {
+  loop: true,
+  autoPlay: true,
+  theme: 'nord',
+  rows: 24,
+  cols: 80,
+});
