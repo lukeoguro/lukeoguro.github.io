@@ -63,12 +63,12 @@
             </h2>
             <p class="text-md text-gray-500 mt-1">San Francisco, CA</p>
             <p class="text-lg text-gray-900 mt-6">
-              I'm a software engineer with multiple years of experience in both the JavaScript and Ruby ecosystems and
-              proficiency with AWS and Docker.
+              I'm a software engineer with multiple years of experience in the JavaScript, Ruby, and Python
+              ecosystems, and I'm proficient with AWS and Docker.
             </p>
             <p class="text-lg text-gray-900 mt-6">
-              Recently, I created Edamame, a distributed load testing framework for real-time collaboration apps that
-              simulates WebSockets and HTTP traffic for up to 200K virtual users.
+              I created Edamame, a load testing framework designed to simulate WebSockets and HTTP traffic at scale
+              (~200K virtual users).
             </p>
             <a class="mt-6 text-xl block w-full py-3 px-5 text-center bg-slate-800 border border-transparent rounded-md shadow-md text-base font-medium text-white hover:opacity-90 sm:inline-block sm:w-auto"
               href="/Luke_Oguro_Resume.pdf" target="_blank">
@@ -109,15 +109,20 @@
               </p>
 
               <p class="text-2xl text-white mt-6">
-                It handles <u><i> 2 million data points per second</i></u>,
-                and comes bundled with a <u><i>custom extension written in Go</i></u> that extends k6 to emit bespoke
+                It features a stream processing pipeline that handles <u><i> 2 million data points per second</i></u>,
+                and comes bundled with a <u><i>custom Go plugin for k6</i></u> that emits bespoke
                 WebSockets metrics.
+              </p>
+
+              <p class="text-2xl text-white mt-6">
+                With Edamame, users can run distributed load tests from a self-hosted Kubernetes cluster on AWS with
+                one command.
               </p>
 
               <div id="demo" class="mt-6"></div>
 
               <p class="text-2xl text-white mt-6">
-                The CLI and React GUI enables developers to easily self-host cloud-based architecture on AWS.
+                Edamame comes with a React UI that allows users to easily manage load tests.
               </p>
               <img class="mt-6 rounded-lg" src="/assets/edamame-gui-e203a0d8.png" />
               <a class="mt-12 text-xl block w-full py-3 px-5 text-center bg-sky-500 hover:bg-sky-600 border border-transparent rounded-md shadow-md text-white font-medium sm:inline-block sm:w-auto"
