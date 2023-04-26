@@ -62,7 +62,7 @@
 [5.333566, "o", "\u001b[?25h"]
 [5.334049, "o", "\u001b[32m✔\u001b[39m AWS credentials found.\r\n"]
 [5.536155, "o", "\r\n"]
-[5.536222, "o", "\u001b[1G\u001b[?25h\u001b[34mℹ\u001b[39m Creating EKS cluster with default settings:\r\n"]
+[5.536222, "o", "\u001b[1G\u001b[?25h\u001b[34mℹ\u001b[39m No cluster found. Creating EKS cluster with default settings:\r\n"]
 [5.536428, "o", "  - Region: \u001b[36mus-west-1\u001b[39m\r\n  - Zones: \u001b[36mus-west-2a, us-west-2b, us-west-2c\u001b[39m\r\n  - K8s Version: \u001b[36m1.25\u001b[39m\r\n"]
 [5.536569, "o", "\u001b[?25l"]
 [5.536856, "o", "\u001b[1G\u001b[36m⠋\u001b[39m This may take a few shakes..."]

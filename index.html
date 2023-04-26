@@ -59,7 +59,7 @@
             <h2 class="text-4xl font-bold text-gray-900">
               👋 Hello world! <br class="sm:hidden" /> I'm Luke 🙋🏻‍♂️
             </h2>
-            <p class="text-md text-gray-500 mt-1">San Francisco, CA</p>
+            <p class="text-md text-gray-500 mt-1">Philadelphia, PA</p>
             <p class="text-lg text-gray-900 mt-6">
               I'm a software engineer with multiple years of experience in the JavaScript, Ruby, and Python
               ecosystems, and I'm proficient with AWS and Docker.
@@ -101,26 +101,29 @@
           <div class="relative lg:col-start-6 lg:row-start-1 lg:col-span-7 lg:rounded-3xl lg:items-center lg:py-12">
             <div
               class="relative max-w-md mx-auto py-12 px-4 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-6">
-              <p class="text-2xl text-white lg:mt-6">
-                Edamame is a load testing framework for real-time collaboration
+              <p class="text-xl lg:text-2xl text-white lg:mt-6">
+                Edamame is an open-source load testing framework for real-time collaboration
                 apps that use both HTTP and WebSockets.
               </p>
 
-              <p class="text-2xl text-white mt-6">
-                It features a stream processing pipeline that handles <u><i> 2 million data points per second</i></u>,
-                and comes bundled with a <u><i>custom Go plugin for k6</i></u> that emits bespoke
-                WebSockets metrics.
+              <p class="text-xl lg:text-2xl text-white mt-6">
+                It features:
               </p>
 
-              <p class="text-2xl text-white mt-6">
+              <ul role="list" class="marker:text-sky-400 text-xl lg:text-2xl list-disc pl-5 text-white">
+                <li>A stream processing pipeline that ingests <u><i>2MM messages / sec </i></u></li>
+                <li>A <u><i>k6 plugin written in Go</i></u> that emits WebSockets metrics</li>
+              </ul>
+
+              <p class="text-xl lg:text-2xl text-white mt-6">
                 With Edamame, users can run distributed load tests from a self-hosted Kubernetes cluster on AWS with
                 one command.
               </p>
 
               <div id="demo" class="mt-6"></div>
 
-              <p class="text-2xl text-white mt-6">
-                Edamame comes with a React UI that allows users to easily manage load tests.
+              <p class="text-xl lg:text-2xl text-white mt-6">
+                It also comes with a React UI that allows users to easily manage load tests.
               </p>
               <img class="mt-6 rounded-lg" src="/assets/edamame-gui.png" />
               <a class="mt-12 text-xl block w-full py-3 px-5 text-center bg-sky-500 hover:bg-sky-600 border border-transparent rounded-md shadow-md text-white font-medium sm:inline-block sm:w-auto"
@@ -144,20 +147,21 @@
         <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl"> Small Projects </h2>
       </div>
       <div class="mt-12 max-w-md mx-auto grid gap-10 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 md:max-w-none">
+
         <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
           <div class="flex-shrink-0 p-6 flex justify-center bg-gray-200">
-            <img class="h-64 drop-shadow-lg filter object-scale-down" src="/assets/todomato.png" alt="" />
+            <img class="h-64 drop-shadow-lg filter object-scale-down" src="/assets/request-bin.png" alt="" />
           </div>
           <div class="flex-1 bg-white p-6 flex flex-col justify-between">
             <div class="flex-1">
               <p class="text-xl font-semibold text-gray-900 mt-2">
-                Todomato
+                RequestBin
               </p>
               <p class="mt-3 text-base text-gray-500">
-                A database-backed todo tracking application
+                Tool for collecting and debugging webhooks
               </p>
               <p class="mt-3 text-base text-gray-500">
-                <i>Ruby, Sinatra, PostgreSQL, Heroku</i>
+                <i>JavaScript, React, Node.js/Express, MongoDB, Nginx, PM2</i>
               </p>
             </div>
           </div>
@@ -182,18 +186,18 @@
 
         <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
           <div class="flex-shrink-0 p-6 flex justify-center bg-gray-200">
-            <img class="h-64 drop-shadow-lg filter object-scale-down" src="/assets/potato-bin.png" alt="" />
+            <img class="h-64 drop-shadow-lg filter object-scale-down" src="/assets/habitual.png" alt="" />
           </div>
           <div class="flex-1 bg-white p-6 flex flex-col justify-between">
             <div class="flex-1">
               <p class="text-xl font-semibold text-gray-900 mt-2">
-                Potato Bin
+                Habitual
               </p>
               <p class="mt-3 text-base text-gray-500">
-                RequestBin-like tool for receiving and debugging webhooks
+                Productivity app for tracking and managing habits, tasks, and goals
               </p>
               <p class="mt-3 text-base text-gray-500">
-                <i>JavaScript, React, Node.js/Express, MongoDB, Nginx, PM2</i>
+                <i>Ruby, Sinatra, PostgreSQL</i>
               </p>
             </div>
           </div>
